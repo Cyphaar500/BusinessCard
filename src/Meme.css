@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: "karla", sans-serif;
+}
+
+.my-nav {
+    display: flex;
+    padding: 20px;
+    align-content: center;
+    background-color: #ffbb00c7;
+}
+
+.nav-img {
+    border-style: none;
+    height: 80px;
+    width: 80px;
+}
+
+.nav-title {
+    margin: auto;
+}
+
+.nav-project {
+    margin: auto;
+}
+
+.my-form {
+    display: grid;
+    padding: 30px;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form-inputs {
+    font-family: "karla", sans-serif;
+    text-indent: 5px;
+    border: 1px solid #DSD4D8;
+}
+
+.form-button {
+    grid-column: 1 / -1;
+    font-family: "karla", sans-serif ;
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: #0000006b;
+    background-color: #ffbb00c7;
+}
+
+.memes-image {
+    width: 100%;
+    padding: 0 30px;
+}
